@@ -1,0 +1,68 @@
+.body{
+    background-color: gainsboro;
+}
+.mynav{
+    box-shadow: 0px 2px 8px #000000ad;
+    z-index: 999;
+    background-color: rgb(255 255 255 / 65%) !important;
+    backdrop-filter: blur(10px);
+}
+.banner{
+    padding-top: 55px;
+}
+.banner > div > a{
+    color: black;
+}
+
+.foot{
+    padding: 25px;
+    background-color: teal;
+}
+.foot ul{
+    margin: 0px;
+    padding: 0px;
+}
+.foot ul li{
+    list-style-type: none;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-widget p{
+    margin-bottom: 0px;
+}
+.footer-widget p a{
+    text-decoration: none;
+    color: white;
+}
+.copy{
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+    background-color: crimson;
+}
+.copy p{
+    margin: 0px;
+}
+.my_card :hover{
+    background-color: rgb(47, 133, 136);
+    color: wheat;
+}
+.social a{
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #2e5ab3;
+    line-height: 1;
+    padding: 8px;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+.social a:hover{
+    background-color: teal;
+    color: whitesmoke;
+}
